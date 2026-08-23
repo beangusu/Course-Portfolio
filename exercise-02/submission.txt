@@ -1,3 +1,0 @@
-The website I chose: https://www.webdesignmuseum.org/gallery/pbs-kids-sprout-in-2005
-
-What stands out to me about PBS Kids Sprout's 2005 website is that the entire experience was built in Flash, with sections like "Play," "TV" and "About Sprout" presented as colorful, hand-illustrated icons instead of a typical text-based navigation menu! That fully illustrated, non-standard style of navigation is exactly what I picture when I think of the "golden age" era of web design, back before everything shifted toward the clean, minimal templates most sites use today.
