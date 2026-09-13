@@ -20,6 +20,7 @@ header {
     border-bottom: 2px solid #7c19b9;
 }
 
+/* navigation styling */
 header h1 {
     font-size: 36px;
     font-weight: normal;
@@ -51,6 +52,7 @@ nav a:hover {
     border-color: #611bca;
 }
 
+/* main content styling */
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -76,6 +78,42 @@ section#about p {
     margin-bottom: 16px;
 }
 
+/* skills & interests card styling */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    flex: 1 1 240px;
+    background-color: #f8f2fc;
+    border: 1px solid #653aff;
+    border-left: 3px solid #c06880;
+    border-radius: 4px;
+    padding: 20px 24px;
+    transition: border-left-color 0.2s ease, transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    border-left-color: #611bca;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px #6030a82c;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #611bca;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 0;
+}
+
+/* footer styling */
 footer {
     padding: 40px;
     border-top: 2px solid #7c19b9;
