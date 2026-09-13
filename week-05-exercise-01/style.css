@@ -4,7 +4,7 @@
     --accent-green: #1d8577;
     --accent-green-dark: #12554c;
     --accent-gray: #3c4552;
-    --accent-red: #cf0303;
+    --accent-red: #cf0303e0;
 }
 
 * {
@@ -112,9 +112,9 @@ button {
 
 .button-04 {
     background-color: #ffffff;
-    color: var(--accent-red);
+    color: var(--accent-orange);
     padding: 16px 32px;
-    border: 2px solid var(--accent-red);
+    border: 2px solid var(--accent-orange);
     letter-spacing: 0px;
     transition: letter-spacing 0.4s ease-in-out, border-width 0.4s ease-in-out;
 }
