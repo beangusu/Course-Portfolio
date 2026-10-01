@@ -1,3 +1,34 @@
+:root {
+    --bg: #ece4f4;
+    --text: #1c0c28;
+    --purple: #6030a8;
+    --pink: #c06880;
+    --border: #c0a0d4;
+    --card-bg: #f8f2fc;
+    --drop-shadow: #6030a826;
+    --window-bar: #3a2350;
+    --window-bg: #fffcff;
+    --hill: #d8c4ea;
+}
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Candara, Calibri, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
