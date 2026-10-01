@@ -105,3 +105,80 @@ nav a.current {
     border-color: var(--purple);
     color: var(--window-bg);
 }
+
+/* window styling */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 56px 32px;
+}
+
+.window {
+    background-color: var(--window-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px var(--drop-shadow);
+    overflow: hidden;
+}
+
+.window-bar {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: var(--window-bar);
+    color: var(--window-bg);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.window-body {
+    padding: 32px 36px;
+}
+
+.window-body p {
+    margin-top: 0;
+}
+
+/* links styling */
+a {
+    color: var(--pink);
+}
+
+/* footer styling */
+footer {
+    margin-top: 32px;
+    padding: 72px 32px 28px;
+    background-color: var(--hill);
+    border-radius: 50% 50% 0 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0 0 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: var(--purple);
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+footer a {
+    color: var(--pink);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--purple);
+    border-color: var(--purple);
+}
