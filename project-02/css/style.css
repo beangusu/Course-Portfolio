@@ -334,6 +334,10 @@ a {
     padding: 0;
 }
 
+.gallery a {
+    cursor: zoom-in;
+}
+
 .gallery li {
     flex: 0 0 31.5%;
 }
