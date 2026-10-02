@@ -443,3 +443,43 @@ footer a:hover {
     color: var(--purple);
     border-color: var(--purple);
 }
+
+@media (width <=900px) {
+    main {
+        padding: 40px 24px;
+    }
+
+    .window-row,
+    .skill-groups {
+        flex-direction: column;
+    }
+
+    .window-row .window,
+    .skill-groups section {
+        flex-basis: auto;
+    }
+
+    .hello {
+        font-size: 48px;
+    }
+
+    .thumb-grid {
+        flex-wrap: nowrap;
+    }
+
+    .thumb-grid li {
+        flex: 1 1 0;
+    }
+
+    .thumb-grid img {
+        height: 110px;
+    }
+
+    .gallery li {
+        flex-basis: 48%;
+    }
+
+    .project-card img {
+        flex-basis: 45%;
+    }
+}
