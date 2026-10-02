@@ -364,6 +364,53 @@ a {
     margin: 0 0 24px;
 }
 
+/* projects page */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--pink);
+    border-radius: 8px;
+    transition: border-left-color 0.2s ease, transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+    border-left-color: var(--purple);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px var(--drop-shadow);
+}
+
+.project-card img {
+    flex: 0 0 42%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.project-card h2 {
+    margin: 0 0 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: var(--purple);
+}
+
+.project-card p {
+    margin: 0 0 12px;
+}
+
 /* footer styling */
 footer {
     margin-top: 32px;
