@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     background-color: var(--bg);
     color: var(--text);
-    font-family: Candara, Calibri, sans-serif;
+    font-family: Candara, Calibri, Optima, sans-serif;
     font-size: 17px;
     line-height: 1.6;
 }
