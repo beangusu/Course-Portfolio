@@ -454,7 +454,7 @@ footer a:hover {
 }
 
 /* tablet responsiveness */
-@media (width <=900px) {
+@media (width <=1080px) {
     main {
         padding: 40px 24px;
     }
@@ -482,7 +482,11 @@ footer a:hover {
     }
 
     .thumb-grid img {
-        height: 110px;
+        height: 150px;
+    }
+
+    .project-thumbs img {
+        height: auto;
     }
 
     .gallery li {
